@@ -1,16 +1,22 @@
 import React from 'react';
 
-import GoalList from './components/GoalList'
+
+import Menu from './components/Menu';
 import './App.css'
 
 const App = () => {
   return (
-    <div>
-      <div className="header-section">
-       <h1>Hello World</h1>
+    <nav className="navbar container">
+      <a href="https://github.com/codewithkevin" class="logo">BEAT THE BUZZER</a>
+
+      <input type="checkbox" className="toggler"></input>
+      <label for="toggler"></label>
+
+      <div className="menu">
+        <Menu />
       </div>
-      <GoalList />
-    </div>
+
+    </nav>
   );
 };
 
