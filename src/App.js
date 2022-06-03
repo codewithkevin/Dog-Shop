@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 import Menu from './components/Menu';
 import './App.css'
 
@@ -10,7 +11,7 @@ const App = () => {
       <a href="https://github.com/codewithkevin" class="logo">BEAT THE BUZZER</a>
 
       <input type="checkbox" className="toggler"></input>
-      <label for="toggler">MENU</label>
+      <label for="toggler"><i class="ri-menu-line"></i></label>
 
       <div className="menu">
         <Menu />
