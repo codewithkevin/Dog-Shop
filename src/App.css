@@ -1,18 +1,6 @@
 /*COPYRIGHT: CODEWITHKEVIN */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: black;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-}
 /* ======================== */
 .container{
     max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
