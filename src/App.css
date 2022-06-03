@@ -1,5 +1,49 @@
-.header-section {
-    background: #f8f8f8;
-    text-align: center;
-    padding: 20px;
+/*COPYRIGHT: CODEWITHKEVIN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+/* ======================== */
+.container{
+    max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
+    margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
+    padding: 12px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap; /*Allows the children inside a flex container to wrap down onto the next line if there is not enough space.*/
+    align-items: center; /*Centers the children of a flex container vertically.*/
+    justify-content: space-between; /*Adds space between each child of a flex container.*/
+    background-color: #fff;
+    padding-block: 15px; /*Padding top and bottom*/
+    color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit; /*Inherits the same color as the parent element or grandparent (the body) unless you set the color to the navbar.*/
+}
+.logo{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler,
+.navbar label{
+    display: none;/*Hide the checkbox and label on large screens.*/
 }
