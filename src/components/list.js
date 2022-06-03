@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const list = () =>{
+const list = () => {
     return(
-        <ul>
+        <ul className="list-items">
             <li>List</li>
             <li>List</li>
             <li>List</li>
