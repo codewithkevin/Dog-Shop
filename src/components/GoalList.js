@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './App.css'
 
 const Goal = () => {
     return(
