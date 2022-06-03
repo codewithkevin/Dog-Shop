@@ -10,7 +10,7 @@ const App = () => {
     <nav className="navbar container">
       <a href="https://github.com/codewithkevin" class="logo">BEAT THE BUZZER</a>
 
-      <input type="checkbox" className="toggler"></input>
+      <input type="checkbox" id="toggler"></input>
       <label for="toggler"><i class="ri-menu-line"></i></label>
 
       <div className="menu">
