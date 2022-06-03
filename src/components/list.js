@@ -11,3 +11,6 @@ const list = () =>{
         </ul>
     )
 }
+
+
+export default list;
