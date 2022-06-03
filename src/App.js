@@ -1,15 +1,13 @@
 import React from 'react';
 
-
-
-import list from './components/list'
+import Goal from './components/GoalList'
 import './App.css'
 
 const App = () => {
   return (
     <div className="header-section">
       <h1>Hello World</h1>
-      <list />
+      <Goal />
     </div>
   );
 };
