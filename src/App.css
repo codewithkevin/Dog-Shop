@@ -30,6 +30,11 @@
     list-style: none;
     display: flex;
     gap: 25px;
+    cursor: pointer;
+}
+
+.list  li:hover {
+    color: dodgerblue;
 }
 
 #toggler,
