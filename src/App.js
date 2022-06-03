@@ -10,7 +10,7 @@ const App = () => {
       <a href="https://github.com/codewithkevin" class="logo">BEAT THE BUZZER</a>
 
       <input type="checkbox" className="toggler"></input>
-      <label for="toggler"></label>
+      <label for="toggler">MENU</label>
 
       <div className="menu">
         <Menu />
