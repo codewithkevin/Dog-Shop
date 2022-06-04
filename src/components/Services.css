@@ -2,18 +2,20 @@
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-padding: 50px 30px;
-transition: all ease-in-out 0.4s;
-background: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: black;
 }
+
+
 .services .icon-box .icon {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .services .icon-box .icon i {
-color: #47b2e4;
-font-size: 36px;
-transition: 0.3s;
+    color: #fff;
+    font-size: 36px;
+    transition: 0.3s;
 }
 .services .icon-box h4 {
 font-weight: 500;
@@ -21,8 +23,8 @@ margin-bottom: 15px;
 font-size: 24px;
 }
 .services .icon-box h4 a {
-color: #37517e;
-transition: ease-in-out 0.3s;
+    color: black;
+    transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
 line-height: 24px;
@@ -33,5 +35,5 @@ margin-bottom: 0;
 transform: translateY(-10px);
 }
 .services .icon-box:hover h4 a {
-color: #47b2e4;
+    color: black;
 }
