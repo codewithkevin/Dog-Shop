@@ -8,6 +8,7 @@ const Menu = (props) => {
             <li>Meduim</li>
             <li>Hard</li>
        </ul>
+       
     )
 };
 

@@ -21,9 +21,7 @@ const App = () => {
 
       </nav>
 
-      <div className="hero-section">
-
-      </div>
+      
 
 
 
