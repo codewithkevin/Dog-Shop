@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Collection from './components/Collections';
 import Service from './components/Services';
 import About from './components/About';
 import Hero from './components/Hero';
@@ -33,6 +34,10 @@ const App = () => {
       <div className="services">
         <Service />
       </div>   
+
+      <div className="Collection">
+        <Collection />
+      </div>
 
       
     </div>  
