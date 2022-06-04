@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
+import Hero from './components/Hero';
 import Menu from './components/Menu';
 import './App.css'
 
@@ -21,10 +21,7 @@ const App = () => {
 
       </nav>
 
-      
-
-
-
+      <Hero />
 
 
     </div>  
