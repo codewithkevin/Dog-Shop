@@ -14,6 +14,9 @@ padding: 10px;
 font-size: 20px;
 color: white;
 }
+/* ==========*/
+
+
 /* ======================== */
 .container{
     max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
