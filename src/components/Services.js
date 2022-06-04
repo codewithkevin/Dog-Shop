@@ -17,7 +17,7 @@ const Service = () => {
                     <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div className="icon-box">
                             <div className="icon"><i class="bx bxl-dribbble"></i></div>
-                            <h4>Lorem Ipsum</h4>
+                            <h4>Dog Training </h4>
                             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                         </div>
                     </div>

@@ -8,6 +8,9 @@
     background: black;
 }
 
+.services .section-title p {
+    color:black;
+}
 
 .services .icon-box .icon {
     margin-bottom: 10px;
