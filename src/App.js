@@ -8,7 +8,7 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="Container">
+    <div className="main">
       <nav className="navbar container">
         <a href="https://github.com/codewithkevin" className="logo bg-primary" title="logo">BEAT THE BUZZER</a>
 
