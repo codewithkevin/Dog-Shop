@@ -8,9 +8,9 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="main">
+    <div className="main-class">
       <nav className="navbar container">
-        <a href="https://github.com/codewithkevin" className="logo bg-primary" title="logo">BEAT THE BUZZER</a>
+        <a href="https://github.com/codewithkevin" className="logo" title="logo">BEAT THE BUZZER</a>
 
         <input type="checkbox" id="toggler"></input>
         <label for="toggler"><i class="ri-menu-line"></i></label>
@@ -20,6 +20,10 @@ const App = () => {
         </div>
 
       </nav>
+
+      <div className="hero-section">
+
+      </div>
 
 
 
