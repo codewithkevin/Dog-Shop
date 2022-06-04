@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+import WhyUs from './components/Whyus';
 import About from './components/About';
 import Hero from './components/Hero';
 import Menu from './components/Menu';
@@ -28,6 +30,10 @@ const App = () => {
       <div className="about">
         <About />
       </div>
+
+      <div className="whyus">
+        <WhyUs />
+      </div>  
 
     </div>  
   );
