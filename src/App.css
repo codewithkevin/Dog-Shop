@@ -86,7 +86,7 @@ color: white;
 }
 
 .about {
-    background-color: #fff;
+    background-color: black;
     color: black;
     max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
     margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
