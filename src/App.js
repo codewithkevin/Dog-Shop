@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import Service from './components/Services';
 import About from './components/About';
 import Hero from './components/Hero';
 import Menu from './components/Menu';
@@ -29,6 +29,10 @@ const App = () => {
       <div className="about">
         <About />
       </div>
+
+      <div className="services">
+        <Service />
+      </div>   
 
       
     </div>  
