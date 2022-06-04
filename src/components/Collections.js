@@ -1,7 +1,6 @@
 import React from 'react';
 import Happy from './images/Happy.png';
 import Train from './images/Train.png';
-import Hero from './images/Hero2.png';
 
 
 

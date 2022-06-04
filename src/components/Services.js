@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from './images/Hero2.png';
 
 import './Services.css'
 
