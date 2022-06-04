@@ -39,6 +39,7 @@
     animation-delay: 0.8s;
     margin-top: 6px;
     border: 2px solid #47b2e4;
+    text-decoration: none;
 }
 .about .content .btn-learn-more:hover {
     background: #47b2e4;
