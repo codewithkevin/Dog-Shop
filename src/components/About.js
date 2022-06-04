@@ -8,7 +8,7 @@ const About = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                <h2>About Us</h2>
+                <h2 className="text-center py-5">About Us</h2>
                 </div>
 
                 <div className="row content">
